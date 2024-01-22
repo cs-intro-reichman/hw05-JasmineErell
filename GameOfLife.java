@@ -216,13 +216,12 @@ public class GameOfLife {
     public static void print(int[][] arr) 
 	{
 		//// Write your code here.
-		for (int i = 1; i < arr.length-1; i++) {
-            for (int j = 1; j < arr.length-1; j++) 
-			{
-                System.out.printf("%3d",arr[i][j]);
-            }
-            System.out.println(); // Move to the next line for a new row
-        }
+		for (int i = 1; i < arr.length - 1; i++) {
+			for (int j = 1; j < arr[0].length - 1; j++) {
+				System.out.printf("%3s", arr[i][j]);
+			}
+			System.out.printf("%n");
+		}
 
 	}
 		
