@@ -9,13 +9,13 @@ public class GameOfLife {
 
 	public static void main(String[] args) {
 		////String fileName = args[0];
-		String fileName = "line.dat";
+		// String fileName = "hypnotic.dat";
 		//// Uncomment the test that you want to execute, and re-compile.
 		//// (Run one test at a time).
 		// test1(fileName);
 		// test2(fileName);
 		// test3(fileName, 3);
-		play(fileName);
+		// play(fileName);
 		// print(read(fileName));
 		// System.out.println(cellValue(read(fileName), 2, 3));
 		// print(evolve(read(fileName)));
